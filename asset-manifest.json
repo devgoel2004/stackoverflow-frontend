@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/stackoverflow-frontend/static/css/main.6d9d64e4.css",
+    "main.js": "/stackoverflow-frontend/static/js/main.e7d3152e.js",
+    "static/media/downvotes.svg": "/stackoverflow-frontend/static/media/downvotes.c153a55c3d9181223fb2924df9e8521f.svg",
+    "static/media/upvotes.svg": "/stackoverflow-frontend/static/media/upvotes.3547f03bd2d75bc4f6ca5f73eff47465.svg",
+    "static/media/globe-solid.svg": "/stackoverflow-frontend/static/media/globe-solid.06ddd479921b62ff578bdedba8e14ca8.svg",
+    "index.html": "/stackoverflow-frontend/index.html",
+    "static/media/comment-solid.svg": "/stackoverflow-frontend/static/media/comment-solid.c9025ff487d59c79ef6ae2392228774c.svg",
+    "static/media/pen-solid.svg": "/stackoverflow-frontend/static/media/pen-solid.3e867354f169d8553a3d58662a2c0ce1.svg",
+    "static/media/search.svg": "/stackoverflow-frontend/static/media/search.6d5ef3dedce5936774892ecc516286be.svg",
+    "static/media/stack-overflow.svg": "/stackoverflow-frontend/static/media/stack-overflow.265a72d52fa82dac73f3988e8a0fc04a.svg",
+    "main.6d9d64e4.css.map": "/stackoverflow-frontend/static/css/main.6d9d64e4.css.map",
+    "main.e7d3152e.js.map": "/stackoverflow-frontend/static/js/main.e7d3152e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d9d64e4.css",
+    "static/js/main.e7d3152e.js"
+  ]
+}
