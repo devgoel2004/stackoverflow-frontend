@@ -19,7 +19,9 @@ const Navbar = ({ setIsOpen, handleSlideIn }) => {
     navigate("/Stackoverflow-frontend/");
     dispatch(setCurrentUser(null));
   };
-
+  const now = new Date();
+  const hours = now.getHours();
+  // console.log(hours);
   useEffect(() => {
     const token = User?.token;
     if (token) {
@@ -31,7 +33,7 @@ const Navbar = ({ setIsOpen, handleSlideIn }) => {
     dispatch(setCurrentUser(JSON.parse(localStorage.getItem("Profile"))));
   }, [User?.token, dispatch]);
   return (
-    <nav className="main-nav">
+    <nav className={hours < 5 || hours > 18 ? `dark` : `main-nav`}>
       <div className="navbar">
         <button
           className="slide-in-icon"
