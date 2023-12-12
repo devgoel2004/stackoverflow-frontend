@@ -29,7 +29,7 @@ function App() {
     }
   };
   return (
-    <div className={hours > 18 ? `Dark` : `App`}>
+    <div className={`App`}>
       <Router>
         <Toaster />
         <Navbar handleSlideIn={handleSlideIn} />

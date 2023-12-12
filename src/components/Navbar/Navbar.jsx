@@ -20,8 +20,7 @@ const Navbar = ({ setIsOpen, handleSlideIn }) => {
     dispatch(setCurrentUser(null));
   };
   const now = new Date();
-  const hours = now.getHours();
-  // console.log(hours);
+  var hours = now.getHours();
   useEffect(() => {
     const token = User?.token;
     if (token) {
@@ -80,7 +79,7 @@ const Navbar = ({ setIsOpen, handleSlideIn }) => {
             />
           </form>
         </div>
-        <div className="navbar-2">
+        <div className={hours < 5 || hours > 18 ? `btn-dark` : `navbar-2`}>
           {User === null ? (
             <Link
               to="/Stackoverflow-frontend/Auth"

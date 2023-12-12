@@ -8,9 +8,14 @@ const Home = ({ slideIn, handleSlideIn }) => {
   const hours = now.getHours();
   return (
     <div>
-      <div className={hours > 18 ? `dark` : `home-container-1`}>
+      <div className={`home-container-1`}>
         <LeftSidebar slideIn={slideIn} handleSlideIn={handleSlideIn} />
-        <div className={hours > 18 ? `dark` : `home-container-2`}>
+        <div
+          className={
+            hours >= 18 || hours <= 5
+              ? `home-container-2-dark`
+              : `home-container-2`
+          }>
           <HomeMainbar />
           <RightSidebar />
         </div>
