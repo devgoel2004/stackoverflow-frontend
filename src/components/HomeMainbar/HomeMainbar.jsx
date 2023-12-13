@@ -18,10 +18,11 @@ const HomeMainbar = () => {
       navigate("/Stackoverflow-frontend/AskQuestion");
     }
   };
-  const hours = 18;
+  const now = new Date();
+  const hours = now.getHours();
   const location = useLocation();
   return (
-    <div className={hours === 18 ? `main-bar-dark` : `main-bar`}>
+    <div className={hours >= 18 || hours <= 5 ? `main-bar-dark` : `main-bar`}>
       <div className="main-bar-header">
         {location.pathname === "/" ? (
           <h1>Top Questions</h1>
