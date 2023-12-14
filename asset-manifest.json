@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/stackoverflow-frontend/static/css/main.175b6262.css",
-    "main.js": "/stackoverflow-frontend/static/js/main.91add4a2.js",
+    "main.css": "/stackoverflow-frontend/static/css/main.3d6a4d1c.css",
+    "main.js": "/stackoverflow-frontend/static/js/main.9fced614.js",
     "static/media/downvotes.svg": "/stackoverflow-frontend/static/media/downvotes.c153a55c3d9181223fb2924df9e8521f.svg",
     "static/media/upvotes.svg": "/stackoverflow-frontend/static/media/upvotes.3547f03bd2d75bc4f6ca5f73eff47465.svg",
     "index.html": "/stackoverflow-frontend/index.html",
     "static/media/search.svg": "/stackoverflow-frontend/static/media/search.6d5ef3dedce5936774892ecc516286be.svg",
-    "main.175b6262.css.map": "/stackoverflow-frontend/static/css/main.175b6262.css.map",
-    "main.91add4a2.js.map": "/stackoverflow-frontend/static/js/main.91add4a2.js.map"
+    "main.3d6a4d1c.css.map": "/stackoverflow-frontend/static/css/main.3d6a4d1c.css.map",
+    "main.9fced614.js.map": "/stackoverflow-frontend/static/js/main.9fced614.js.map"
   },
   "entrypoints": [
-    "static/css/main.175b6262.css",
-    "static/js/main.91add4a2.js"
+    "static/css/main.3d6a4d1c.css",
+    "static/js/main.9fced614.js"
   ]
 }
