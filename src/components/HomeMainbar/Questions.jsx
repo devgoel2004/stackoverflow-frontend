@@ -9,7 +9,7 @@ const Questions = ({ question }) => {
     <>
       <div
         className={
-          hours >= 18 || hours <= 5
+          hours === 12 || hours === 5
             ? `display-question-container-dark`
             : `display-question-container`
         }>
